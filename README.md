@@ -7,7 +7,7 @@ An online auction website for electronics (Phones, Laptops, Desktops)
 
 Database name: electronics (not uploaded)
 
-**Users:**
-  a. Admin: _One admin as the main control head and in-charge of managing customer representatives_
-  b. Customer Representatives: _Customer service and controlling feedback_
-  c. End-users: _Participate in creating, bidding on and viewing auctions_
+**Users:**<br/>
+  a. Admin: _One admin as the main control head and in-charge of managing customer representatives_<br/>
+  b. Customer Representatives: _Customer service and controlling feedback_<br/>
+  c. End-users: _Participate in creating, bidding on and viewing auctions_<br/>
