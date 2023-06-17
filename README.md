@@ -5,7 +5,7 @@ An online auction website for electronics (Phones, Laptops, Desktops)
 **Server:** Apache Tomcat 10.1.5<br/>
 **Tools:** Eclipse Editor, MySQL Workbench<br/>
 
-Database name: electronics (not uploaded)
+_**Database name:**_ electronics
 
 **Users:**<br/>
   a. Admin: _One admin as the main control head and in-charge of managing customer representatives_<br/>
