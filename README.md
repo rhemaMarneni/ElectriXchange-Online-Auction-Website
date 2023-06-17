@@ -1,9 +1,9 @@
 # ElectriXchange-Online-Auction-Website
 An online auction website for electronics (Phones, Laptops, Desktops)
 
-**Languages Used:** JSP/Java/JDBC, HTML/CSS, MySQL
-**Server:** Apache Tomcat 10.1.5
-**Tools:** Eclipse Editor, MySQL Workbench
+**Languages Used:** JSP/Java/JDBC, HTML/CSS, MySQL<br/>
+**Server:** Apache Tomcat 10.1.5<br/>
+**Tools:** Eclipse Editor, MySQL Workbench<br/>
 
 Database name: electronics (not uploaded)
 
