@@ -1,0 +1,139 @@
+@charset "ISO-8859-1";
+
+.topnav{
+	background-color: #202020;
+	overflow: hidden;
+	padding: 25px 25px;
+	text-align: center;
+}
+
+.topnav a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-weight: 15em;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+.topnav a:hover{
+	background-color: white;
+	color: black;
+	border-radius: 3px;
+}
+
+.topnav a.active{
+	background-color: white;
+	color: black;
+	border-radius: 3px;
+}
+
+.username p{
+	float: right;
+}
+
+
+.container{
+	margin: 50px 250px 20px 250px;
+}
+
+.rowst{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.columnst{
+	background-color: #202020;
+	width: 290px;
+	height: auto;
+	margin: 20px;
+	text-align: center;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 4px;
+}
+
+.columnst img{
+	border-radius: 4px;
+	
+}
+
+.columnst a{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Trebuchet MS', sans-serif;
+	padding: 10px;
+	background-color: white;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+.columnst a:hover{
+	text-decoration: underline;
+	
+}
+.question{
+	display:inline-block;
+	margin-left: 25%;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	width: 50%;
+	text-align: center;
+	background-color: #eee;
+	padding: 30px;
+	border-radius:6px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.itemcolumn1{
+	float: left;
+  	width: 25%;
+  	margin-top: 6px;	
+}
+
+.itemcolumn2{
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.itemrow::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .rowst{
+  	flex-direction: column;
+  	width: 50%;
+  	margin-left: 25%;
+  }
+  .columnst{
+  	width: 100%;
+  }
+  
+  .question{
+  	width: 75%;
+  	margin-left: 12.5%;
+  }
+}

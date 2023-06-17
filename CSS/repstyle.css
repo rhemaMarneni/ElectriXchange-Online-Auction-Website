@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+h1{
+	text-align:center;
+	background-color: #eee;
+	padding: 10px;
+}
+
+h3,h4{
+	text-align:center;
+}
+
+.rowstyle{
+	display:flex;
+	margin: 10px;
+}
+
+.columnstyle{
+	flex:50%;
+	text-align: center;
+	padding: 20px;
+	height: 150px;
+	align-items: center;
+}
+
+.columnstyle a{
+	padding: 10px;
+	font-size: 24px;
+	height: 100px;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	display: block;
+	border-style: solid;
+	text-align: center;
+	padding: 30px;
+}
+
+.columnstyle a:hover{
+	color: white;
+	background-color: black;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .columnstyle {
+    width: 100%;
+  }
+}

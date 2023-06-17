@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+
+* {box-sizing: border-box;}
+
+body { 
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  margin: 0px 15px 0px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  margin: 0;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a:hover {
+  text-decoration: underline;
+}
+
+.navimage{
+	height: 55px;
+	width: 55px;
+}
+
+.image{
+	height: "300px";
+	width: "300px";
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	height: 560px;
+}
+
+.column{
+	display: flex;
+	vertical-align: middle;
+	align-items: center;
+	width: 50%;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-size: 19px;
+}
+
+.back {
+  	margin: 50px auto;
+  	height: 480px;
+	width: 78%;
+	border-radius: 5px;
+	background-color: #f1f1f1;
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+input[type=submit] {
+	font-size: 18px;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: bold;
+ 	width: 50%;
+	background-color: #202020;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+	cursor: pointer;
+	width: 100px;
+}
+
+input[type=text], input[type=number], input[type="datetime-local"], input[type=password], select{
+  	width: 85%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	line-height: 28px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .row{
+  	flex-direction: column;
+  }
+  .column{
+  	width: 100%;
+  }
+}
